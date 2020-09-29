@@ -1,0 +1,248 @@
+﻿﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Events</title>
+	
+	<!---//Head-Script--->
+	
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+	<!---Head-Script//--->
+	
+  <body>	
+  
+	<!----//Header--->
+		<div class="container-fluid top-header">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 col-sm-3 col-xs-4">
+						<a href="index.php"><img src="images/logo.png" class="img-responsive" alt="" /></a>
+					</div>
+					<div class="col-md-5 col-sm-5 col-xs-8">
+						<h2 class="text-center">SISHYA SCHOOL</h2>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-4">
+						<p class="pull-right address">
+							Sishya School, <br />
+							Thally Road,Hosur-635109,<br />
+							Tamil Nadu. <br />
+							Phone: 8903194702 <br />
+							Email: sishya_hs@yahoo.com, <br />
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	<!----Top-header//--->
+	
+	<!---//Heder--->
+	<nav class="navbar navbar-default header">
+		<div class="container-fluid">
+			<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#"></a>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="index.php">Home <span class="sr-only"></span></a></li>
+						<li class="nav-item dropdown"><a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">About Us<span class="caret"> <i class="fa fa-angle-down"></i></a><ul class="dropdown-menu"><li><a href="page.php?page=schoolmanagement">Management</a></li><li><a href="page.php?page=houses">Houses</a></li><li><a href="page.php?page=sr.principalprofile">Sr.Principal</a></li><li><a href="page.php?page=definingmomentsofsis">Defining Moments</a></li><li><a href="page.php?page=teachingandnonteachi">Teaching and Non-teaching Staffs Details</a></li><li><a href="page.php?page=visionmission">Vision/Mission</a></li><li><a href="page.php?page=salientfeaturesofsis">Salient Features(School Profile)</a></li><li><a href="page.php?page=testimonials">Testimonials</a></li><li><a href="page.php?page=affiliationdetails">Affiliation Details</a></li><li><a href="page.php?page=schoolmanagementcomm">S.M.C</a></li><li><a href="page.php?page=scholarshipawards">Scholarship & Awards</a></li><li><a href="page.php?page=inclusiveeducation">Inclusive Education</a></li></ul></li><li class="nav-item dropdown"><a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">Academics<span class="caret"> <i class="fa fa-angle-down"></i></a><ul class="dropdown-menu"><li><a href="page.php?page=seniorsecondaryprogr">Senior Secondary Programme</a></li><li><a href="page.php?page=dailyhealthtip">Daily Health Tip</a></li><li><a href="page.php?page=achievements2016-17">Achievements 2016-17</a></li><li><a href="page.php?page=schoolfeepayment">School fee payment</a></li><li><a href="page.php?page=codeofconduct">Sishya Student Code of Conduct</a></li><li><a href="page.php?page=yearplanner">Year Planner 2018-19 (Monthwise)</a></li><li><a href="page.php?page=dailyassignments">Daily Assignments</a></li></ul></li><li class="nav-item dropdown"><a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">Our Campus<span class="caret"> <i class="fa fa-angle-down"></i></a><ul class="dropdown-menu"><li><a href="page.php?page=schoolinfrastructure">Infrastructure</a></li><li><a href="page.php?page=newsletters">News Letters </a></li><li><a href="page.php?page=">Clubs</a></li></ul></li><li class="nav-item dropdown"><a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">Admissions<span class="caret"> <i class="fa fa-angle-down"></i></a><ul class="dropdown-menu"><li><a href="page.php?page=lkgadmissions2020-21">LKG Admissions 2020-21</a></li><li><a href="page.php?page=classxiadmissions202">Class XI Admissions 2020-21</a></li><li><a href="page.php?page=lateraladmissions202">Lateral Admissions 2020-21</a></li></ul></li><li class="nav-item dropdown"><a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">Forms<span class="caret"> <i class="fa fa-angle-down"></i></a><ul class="dropdown-menu"><li><a href="page.php?page=tcapplicationfor2019">Transfer Certificate 2019 - 2020</a></li></ul></li> 
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gallery <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="photo-gallery.php">Photo Gallery</a></li>
+								<li><a href="video-gallery.php">Video Gallery</a></li>
+							</ul>
+						</li>
+						<li><a href="download.php">Downloads</a></li>
+						<li><a href="career.php">Careers</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact Us<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="contact.php">Contact</a></li>
+								<li><a href="feedback.php">Feedback</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Login <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="Parent.php">Parents</a></li>
+								<li><a href="Student.php">Students</a></li>
+								<li><a href="staff.php">staff</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</div><!-- /.container-->
+		</div><!-- /.container-fluid -->
+	</nav>	<!---Heder//--->
+	
+	<!---//Content--->
+	<div class="container-fluid" style="background:rgb(235, 236, 237) none repeat scroll 0% 0%;">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12">
+					<ul class="breadcrumb">
+						<li><a href="index.php" style="color:#000;">Home</a></li>
+						<li><a href="#" class="active" style="color:#000;">Events</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+				<div class="row ">
+			<div class="col-md-12 col-sm-12 col-xs-12 about1">
+				<h3 style="margin-bottom:20px;">Events</h3>
+			</div><br />
+			<div class="col-md-12 col-sm-12 col-xs-12 news">
+				<h4 style="font-size:22px;">Circular No.23 for Classes LKG to XI</h4>
+			</div>
+			<div class="col-md-12 col-sm-12 col-xs-12">
+				<img src="images/events/40173sliderCircular No.23.jpeg" style="width:60%;" class="img-responsive" alt="" /><br />
+			</div>
+			<div class="col-md-12 col-sm-12 col-xs-12 news">
+				<p class="text-justify">Circular No.23 regarding Compulsory working day for classes III to XI & Transport requisition for Senior Sports Day </p>
+			</div>
+		</div>
+	</div>
+	<!---Content//--->
+	
+	<!---//Footer--->
+	<br /><br />
+<div class="container-fluid footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<h4>Navigate</h4>
+					<ul class="list-unstyled navigate">
+						<li><a href="index.php">Home</a></li>
+						<li><a href="contact.php">Contact us</a></li>
+						<li><a href="download.php">Downloads</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<h4>Quick Links</h4>
+					<ul class="list-unstyled navigate">
+						<li><a href="#">Careers</a></li>
+						<li><a href="#">Feedback</a></li>
+						<li><a href="photo-gallery.php">Photo gallery</a></li>
+						<li><a href="video-gallery.php">Video Gallery</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 navigate">
+					<h4>Contact Us</h4>
+					<p>Sishya School, <br />
+					Thally Road, <br />
+					Hosur-635109,<br />
+					Tamil Nadu. <br />
+					Phone: 8903194702 <br />
+					Email: sishya_hs@yahoo.com, <br />
+					Website:  www.sishyaschool.edu.in					</p>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<h4>Social Hub</h4>
+					<p><a href="#"><img src="images/facebook.png" alt="" /></a> <a href="#"><img src="images/twitter.png" alt="" /></a> <a href="#"><img src="images/google.png" alt="" /></a> <a style="margin-top:5px;" href="#"><img src="images/youtube.png" alt="" /></a></p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 col-sm-6 col-xs-6 navigate">
+					<p>Copyright @ 2020 Sishya School All Rights Reserved</p>
+				</div>
+				<div class="col-md-6 col-sm-6 col-xs-6 navigate">
+					&nbsp;
+				</div>
+			</div>
+		</div>
+	</div>	<!---Footer//--->
+	
+	<!---//Footer-Script--->
+	    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+	<script src="js/jquery.easy-ticker.js"></script> 
+	<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+	<script>
+	$(function(){
+		$('.demo1').easyTicker({
+			direction: 'up',
+			easing: 'swing'
+		});
+
+	});
+	</script>
+	<script type="text/javascript">
+	 $("#flexiselDemo3").flexisel({
+        visibleItems: 6,
+        animationSpeed: 1000,
+        autoPlay: true,
+        autoPlaySpeed: 3000,            
+        pauseOnHover: true,
+        enableResponsiveBreakpoints: true,
+        responsiveBreakpoints: { 
+            portrait: { 
+                changePoint:480,
+                visibleItems: 2
+            }, 
+            landscape: { 
+                changePoint:640,
+                visibleItems: 4
+            },
+            tablet: { 
+                changePoint:768,
+                visibleItems: 4
+            }
+        }
+    });
+	</script>
+	<script type="text/javascript">
+		jQuery('.carousel').carousel({
+			interval: 7000
+		}),
+		jQuery('.carousel1').carousel({
+			interval: 4000
+		}),
+		jQuery('.carousel2').carousel({
+			interval: 7000
+		}),
+		jQuery('.carousel3').carousel({
+			interval: 8000
+		}),
+		jQuery('.carousel4').carousel({
+			interval: 10000
+		})
+	</script>
+	<script type="text/javascript">
+	    $(function(){
+		$(".dropdown").hover(            
+				function() {
+					$('.dropdown-menu', this).stop( true, true ).fadeIn("fast");
+					$(this).toggleClass('open');
+					$('b', this).toggleClass("caret caret-up");                
+				},
+				function() {
+					$('.dropdown-menu', this).stop( true, true ).fadeOut("fast");
+					$(this).toggleClass('open');
+					$('b', this).toggleClass("caret caret-up");                
+				});
+		});
+	</script>
+	<!---Footer-Script//--->
+	
+  </body>
+</html>
